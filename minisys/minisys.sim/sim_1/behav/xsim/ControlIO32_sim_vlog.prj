@@ -1,0 +1,50 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../minisys.srcs/sources_1/ip/cpuclk" --include "C:/Xilinx/Vivado/2017.4/data/xilinx_vip/include" \
+"../../../../minisys.srcs/sources_1/imports/lab12/ifetc32.v" \
+
+sv xil_defaultlib  --include "../../../../minisys.srcs/sources_1/ip/cpuclk" --include "C:/Xilinx/Vivado/2017.4/data/xilinx_vip/include" \
+"../../../../minisys.srcs/sources_1/imports/lab10/idecode32-1.v" \
+
+verilog xil_defaultlib  --include "../../../../minisys.srcs/sources_1/ip/cpuclk" --include "C:/Xilinx/Vivado/2017.4/data/xilinx_vip/include" \
+"../../../../minisys.srcs/sources_1/new/Idecoder32.v" \
+"../../../../minisys.srcs/sources_1/imports/lab12/control32.v" \
+"../../../../minisys.srcs/sources_1/ip/prgrom/sim/prgrom.v" \
+"../../../../minisys.srcs/sources_1/imports/Desktop/Ifetc32_2.v" \
+"../../../../minisys.srcs/sources_1/imports/lab13/leds.v" \
+"../../../../minisys.srcs/sources_1/imports/lab13/switchs.v" \
+"../../../../minisys.srcs/sources_1/imports/lab13/ioread.v" \
+"../../../../minisys.srcs/sources_1/imports/lab13/dmemory32.v" \
+"../../../../minisys.srcs/sources_1/imports/lab13/memorio.v" \
+"../../../../minisys.srcs/sources_1/ip/RAM/sim/RAM.v" \
+"../../../../minisys.srcs/sources_1/new/control32_1.v" \
+"../../../../minisys.srcs/sources_1/new/mem_top.v" \
+"../../../../minisys.srcs/sources_1/ip/cpuclk/cpuclk_clk_wiz.v" \
+"../../../../minisys.srcs/sources_1/ip/cpuclk/cpuclk.v" \
+"../../../../minisys.srcs/sources_1/imports/lab11/executs32.v" \
+
+sv xil_defaultlib  --include "../../../../minisys.srcs/sources_1/ip/cpuclk" --include "C:/Xilinx/Vivado/2017.4/data/xilinx_vip/include" \
+"../../../../minisys.srcs/sources_1/new/minisys_top.v" \
+
+verilog xil_defaultlib  --include "../../../../minisys.srcs/sources_1/ip/cpuclk" --include "C:/Xilinx/Vivado/2017.4/data/xilinx_vip/include" \
+"../../../../minisys.srcs/sim_1/imports/lab12/control32_sim.v" \
+"../../../../minisys.srcs/sim_1/new/sim_de_v_2.v" \
+
+sv xil_defaultlib  --include "../../../../minisys.srcs/sources_1/ip/cpuclk" --include "C:/Xilinx/Vivado/2017.4/data/xilinx_vip/include" \
+"../../../../minisys.srcs/sim_1/imports/lab10/idcode32_sim.v" \
+
+verilog xil_defaultlib  --include "../../../../minisys.srcs/sources_1/ip/cpuclk" --include "C:/Xilinx/Vivado/2017.4/data/xilinx_vip/include" \
+"../../../../minisys.srcs/sim_1/imports/lab13/ram_sim.v" \
+"../../../../minisys.srcs/sim_1/imports/lab13/ControlIO32_sim.v" \
+"../../../../minisys.srcs/sim_1/new/mem_top_sim.v" \
+
+sv xil_defaultlib  --include "../../../../minisys.srcs/sources_1/ip/cpuclk" --include "C:/Xilinx/Vivado/2017.4/data/xilinx_vip/include" \
+"../../../../minisys.srcs/sim_1/new/sim_1.v" \
+
+verilog xil_defaultlib  --include "../../../../minisys.srcs/sources_1/ip/cpuclk" --include "C:/Xilinx/Vivado/2017.4/data/xilinx_vip/include" \
+"../../../../minisys.srcs/sim_1/imports/lab12/ifetc32_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

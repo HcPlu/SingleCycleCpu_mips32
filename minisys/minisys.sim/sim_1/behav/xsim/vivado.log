@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun May 26 22:28:50 2019
+# Process ID: 10336
+# Current directory: C:/Users/HcPlu/CO/minisys/minisys.sim/sim_1/behav/xsim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13364 C:\Users\HcPlu\CO\minisys\minisys.sim\sim_1\behav\xsim\sim_1_behav.wdb
+# Log file: C:/Users/HcPlu/CO/minisys/minisys.sim/sim_1/behav/xsim/vivado.log
+# Journal file: C:/Users/HcPlu/CO/minisys/minisys.sim/sim_1/behav/xsim\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_wave_database {C:\Users\HcPlu\CO\minisys\minisys.sim\sim_1\behav\xsim\sim_1_behav.wdb}
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+open_wave_database: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 828.301 ; gain = 125.063
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May 26 22:29:58 2019...
